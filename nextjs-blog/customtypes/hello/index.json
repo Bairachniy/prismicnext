@@ -1,0 +1,28 @@
+{
+  "id": "hello",
+  "label": "hello",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "this_is_how_we_do_it": {
+        "type": "Text",
+        "config": {
+          "label": "This is how we do it",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "try_slice": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}
